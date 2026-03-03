@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kusum | Data Analyst</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  background:#f5f7fa;
+  color:#333;
+  scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  background:#0d1b2a;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:bold;
+  color:white;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+  gap:25px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  transition:0.3s;
+  font-weight:500;
+}
+
+nav a:hover{
+  color:#e63946;
+}
+
+/* HERO */
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:80px 8%;
+  flex-wrap:wrap;
+}
+
+.hero-text{
+  max-width:550px;
+}
+
+.hero-text h1{
+  font-size:38px;
+}
+
+.hero-text h1 span{
+  color:#e63946;
+}
+
+.hero-text h3{
+  margin:15px 0;
+  color:#555;
+}
+
+.hero-text p{
+  margin-bottom:25px;
+  line-height:1.6;
+}
+
+/* NEW PROFILE STYLE */
+.profile{
+  text-align:center;
+  margin-top:20px;
+}
+
+.profile img{
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  object-fit:cover;
+  border:4px solid #4CAF50;
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* BUTTONS */
+.btn{
+  display:inline-block;
+  padding:10px 22px;
+  margin-right:10px;
+  background:#e63946;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+  transition:0.3s;
+  font-weight:500;
+}
+
+.btn:hover{
+  background:#c1121f;
+}
+
+.btn-outline{
+  background:transparent;
+  border:2px solid #e63946;
+  color:#e63946;
+}
+
+.btn-outline:hover{
+  background:#e63946;
+  color:white;
+}
+
+/* SECTIONS */
+section{
+  padding:70px 8%;
+  text-align:center;
+}
+
+section h2{
+  font-size:28px;
+  margin-bottom:25px;
+  color:#0d1b2a;
+}
+
+/* SKILLS */
+.skills-grid{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:15px;
+}
+
+.skills-grid div{
+  background:#1b263b;
+  color:white;
+  padding:10px 20px;
+  border-radius:20px;
+  font-size:14px;
+  transition:0.3s;
+}
+
+.skills-grid div:hover{
+  background:#e63946;
+}
+
+/* PROJECTS */
+.projects-container{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
+}
+
+.project-card{
+  background:white;
+  padding:20px;
+  width:300px;
+  border-radius:12px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.project-card:hover{
+  transform:translateY(-8px);
+}
+
+.project-card h3{
+  margin-bottom:10px;
+}
+
+.project-btn{
+  display:inline-block;
+  margin-top:12px;
+  text-decoration:none;
+  color:#e63946;
+  font-weight:bold;
+}
+
+/* CONTACT */
+.contact-links a{
+  display:inline-block;
+  margin:10px;
+  text-decoration:none;
+  color:white;
+  background:#0d1b2a;
+  padding:10px 18px;
+  border-radius:5px;
+  transition:0.3s;
+}
+
+.contact-links a:hover{
+  background:#e63946;
+}
+
+footer{
+  background:#0d1b2a;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Kusum</div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Hello, I'm <span>Kusum </span></h1>
+    <h3>Data Analyst | Data Science Enthusiast</h3>
+    <p>
+      I Dedicated transforming raw data into powerful and actionable business insights 
+      using Python, SQL, Excel, Power BI, and Visualization tools and technology.
+    </p>
+
+    <a href="#projects" class="btn">View Projects</a>
+
+    <!-- ADD RESUME FILE HERE -->
+    <a href="C:\Portfolio\kusum_data_analyst_cv.pdf"download class="btn btn-outline">
+      Download Resume
+    </a>
+  </div>
+
+  <!-- ADD IMAGE HERE (PROFILE PHOTO) -->
+  <div class="profile">
+    <img src="C:\Portfolio\WhatsApp Image 2025-11-25 at 12.37.38 PM.jpeg"alt="Kusum Profile Photo">
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    B.COM graduate with Data Science Diploma.I am a passionate Data Analyst with experience in SQL, Python, Excel, and Power BI.
+    I specialize in transforming raw data into meaningful business insights.
+    Currently working on real-world data projects and dashboards.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div>Python(Pandas, NumPy, Matplotlib, Seaborn,Plotly)</div>
+    <div>SQL(MySQL)</div>
+    <div>Excel,Advanced Excel (Pivot Table, VLOOKUP, XLOOKUP, Conditional Formatting)</div>
+    <div>Power BI & DAX</div>
+    <div>Tableau</div>
+    <div>Data Cleaning & EDA</div>
+    <div>Machine Learning (Scikit-Learn)</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Featured Projects</h2>
+
+  <div class="projects-container">
+    <div class="project-card">
+      <h3>Blinkit-Sales Dashboard(Power BI)</h3>
+      <p>Interactive Excel & Power BI dashboard with KPIs and sales insights.</p>
+      <a href="https://github.com/Kusum-0001/Blinkit-sales-dasboard-powerbi-" target="_blank">
+View Project →
+</a>
+    </div>
+
+    <div class="project-card">
+      <h3>E-Commerce Analytics with SQL</h3>
+      <p>Advanced SQL queries for business reporting and performance analytics.</p>
+      <a href="https://github.com/Kusum-0001/E-Commerce-analytics-with-SQL" target="_blank">
+View Project →
+</a> 
+    </div>
+
+    <div class="project-card">
+      <h3>Credit Card Fraud Detection Using Machine Learning </h3>
+      <p>Prediction model using Python & Scikit-Learn for business forecasting.</p>
+      <a href="https://github.com/Kusum-0001/Credit-care-fraud-detection-ML-project" target="_blank">
+View Project →
+</a>
+    </div>
+
+      <div class="project-card">
+      <h3>Order Booking Report Analysis Using Excel and Advance Excel</h3>
+      <p>Excel Project analyzing secondary order booking and delivery performance using KPI dashboards and business-driven insights.</p>
+      <a href="https://github.com/Kusum-0001/Order-Booking-Report" target="_blank">
+View Project →
+</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Connect With Me</h2>
+  <p>Email: <strong>sharma2001kusum@gmail.com</strong></p>
+  <p>Mob.No.: <strong>7303569598</strong></p>
+
+  <div class="contact-links">
+    <a href="mailto:sharma2001kusum@gmail.com">Email</a>
+    <a href="https://github.com/Kusum-0001" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/kusum-472b93370/" target="_blank">LinkedIn</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Kusum | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>   . recorrect this code image is not visible properly
